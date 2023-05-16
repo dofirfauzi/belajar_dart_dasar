@@ -8,7 +8,7 @@ void main() {
   5. di Dart semua tipe data adalah object, dimana list sendiri memiliki property, method dan operator
   */
 
-  List<int> numbers = [1,2,3];
+  List<int> numbers = [1, 2, 3];
 
   //menambah data kedalam list
   numbers.add(4);
@@ -19,7 +19,7 @@ void main() {
   //untuk mengetahui panjang list gunakan length
   print(numbers.length);
 
-  var names = <String> ['Muhammad', 'Dofir' , 'Fauzi'];
+  var names = <String>['Muhammad', 'Dofir', 'Fauzi'];
 
   names.add('Eko');
 
@@ -38,7 +38,9 @@ void main() {
   print(names);
 
   //deklarasi list secara langsnung
-  var cars = ['toyota','mazda']; //tidak perlu menyebutkan tipe data, dart sudah otomatis membaca isi datanya
+  var cars = [
+    'toyota',
+    'mazda'
+  ]; //tidak perlu menyebutkan tipe data, dart sudah otomatis membaca isi datanya
   print(cars);
-
 }
